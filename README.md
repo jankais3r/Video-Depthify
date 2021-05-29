@@ -40,7 +40,7 @@ Your folder structure should look like this:
 
 4) [**Optional**] Run the frame average to reduce the flicker betweeen individual frames (this will populate the `averaged` folder).
 
-See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_averaged_sound.mp4) vs. [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_sound.mp4) to see the effect of this step.
+See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_averaged_sound.mp4) vs. [Elephant_depth_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_sound.mp4) to see the effect of this step.
 
 `python3 average.py`
 
