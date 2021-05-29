@@ -34,12 +34,6 @@ for file in glob.glob('./rgb/*.jpg'):
 	img = cv2.imread(file)
 	img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 	
-	#origwidth = img.shape[1]
-	#origheight = img.shape[0]
-	#width = 1280
-	#height = int((1280/origwidth) * origheight)
-	#img = cv2.resize(img, (width, height), interpolation = cv2.INTER_CUBIC)
-	
 	input_batch = transform(img).to(device)
 	
 	with torch.no_grad():
@@ -56,9 +50,6 @@ for file in glob.glob('./rgb/*.jpg'):
 	
 	output_normalized = (output * 255 / np.max(output)).astype('uint8')
 	output_image = Image.fromarray(output_normalized)
-	output_image_converted = output_image.convert('RGB')
-	#output_image_converted = output_image_converted.resize((origwidth, origheight))
-	output_image_inverted = ImageOps.invert(output_image_converted)
-	output_image_inverted.save(file.replace('rgb', 'depth'))
+	output_image_converted = output_image.convert('RGB').save(file.replace('rgb', 'depth'))
 	#print('Converted: ' + file)
 	
