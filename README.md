@@ -4,7 +4,7 @@ Collection of scripts for generating depth maps for videos using machine learnin
 ### Requirements
 - Python/Conda 3 environment (virtualenv recommended)
 
-```pip3 install pytorch torchvision opencv-python timm Pillow numpy```
+```pip3 install torch torchvision opencv-python timm Pillow numpy```
 - ffmpeg
 - Unix system recommended (WSL on Windows)
 
@@ -40,7 +40,7 @@ For faster (but lower quality) depth map generation you can switch to a lighter 
 
 `python3 depth.py`
 
-4) [**Optional**] Run the frame average to reduce the flicker betweeen individual frames (this will populate the `averaged` folder).
+4) [**Optional step**] Run the frame average to reduce the flicker betweeen individual frames (this will populate the `averaged` folder).
 
 See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_averaged_sound.mp4) vs. [Elephant_depth_sound.mp4](https://github.com/jankais3r/Video-Depthify/blob/main/Elephant_depth_sound.mp4) to see the effect of this step.
 
@@ -50,7 +50,7 @@ See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depth
 
 `python3 merge.py`
 
-6) Combine the merged frames into a video file.
+6) Combine the merged frames into a video file. (substitute `25` fps with the number you got from step 1).
 
 `ffmpeg -framerate 25 -i ./merged/%06d.jpg -vcodec libx264 -pix_fmt yuv420p Elephant_depth.mp4`
 
