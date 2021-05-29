@@ -36,6 +36,8 @@ Your folder structure should look like this:
 
 3) Run the depth inferrence (this will populate the `depth` folder).
 
+For faster (but lower quality) depth map generation you can switch to a lighter model by changing [line 13](https://github.com/jankais3r/Video-Depthify/blob/main/depth.py#L13) to `False`.
+
 `python3 depth.py`
 
 4) [**Optional**] Run the frame average to reduce the flicker betweeen individual frames (this will populate the `averaged` folder).
