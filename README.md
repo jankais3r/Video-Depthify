@@ -1,6 +1,12 @@
 # Video-Depthify
 Collection of scripts for generating depth maps for videos using machine learning.
 
+## Running on Google Colab
+You can run the whole process from withing your browser without setting anything up, thanks to Google Colab. [Click here](https://colab.research.google.com/drive/1eB8Q2MtYSucttwv0XojojMGkdpfh1CMq?usp=sharing)
+
+
+## Running locally
+
 ### Requirements
 - Python/Conda 3 environment (virtualenv recommended)
 
