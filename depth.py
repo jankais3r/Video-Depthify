@@ -25,8 +25,10 @@ midas_transforms = torch.hub.load('intel-isl/MiDaS', 'transforms')
 
 if use_large_model:
 	transform = midas_transforms.dpt_transform
+	print('Using large (slow) model.')
 else:
 	transform = midas_transforms.small_transform
+	print('Using small (fast) model.')
 
 
 for file in glob.glob('./rgb/*.jpg'):
@@ -51,5 +53,5 @@ for file in glob.glob('./rgb/*.jpg'):
 	output_normalized = (output * 255 / np.max(output)).astype('uint8')
 	output_image = Image.fromarray(output_normalized)
 	output_image_converted = output_image.convert('RGB').save(file.replace('rgb', 'depth'))
-	#print('Converted: ' + file)
+	print('Converted: ' + file)
 	
