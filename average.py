@@ -30,3 +30,4 @@ for idx in range(items):
 	#print('Averaged: ' + str(current).zfill(6) + '.jpg')
 
 Image.open(last).save(last.replace('depth', 'averaged'))
+print('Done.')

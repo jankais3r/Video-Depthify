@@ -17,3 +17,4 @@ for file in glob.glob("./rgb/*.jpg"):
 		im2 = Image.open(file.replace('rgb', 'depth'))
 	get_concat_v(im1, im2).save(file.replace('rgb', 'merged'))
 	#print("Merged: " + file)
+print('Done.')

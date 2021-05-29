@@ -54,4 +54,4 @@ for file in glob.glob('./rgb/*.jpg'):
 	output_image = Image.fromarray(output_normalized)
 	output_image_converted = output_image.convert('RGB').save(file.replace('rgb', 'depth'))
 	print('Converted: ' + file)
-	
+print('Done.')
