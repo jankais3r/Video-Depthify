@@ -6,6 +6,11 @@ You can run the whole process directly from your browser without setting anythin
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eB8Q2MtYSucttwv0XojojMGkdpfh1CMq?usp=sharing)
 
+_**June 2021 update**_
+
+_Use the following Colab notebook to use [BoostingMonocularDepth](https://github.com/compphoto/BoostingMonocularDepth/) instead of MiDaS for even more detailed (and slower) depth maps._
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Bj-HqUEEEIkOwrf62qy7ojHt9VgN8xK6/view?usp=sharing)
 
 ## Running locally
 
