@@ -73,4 +73,11 @@ See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depth
 
 8) Voilà
 
-![Demo](https://github.com/jankais3r/Video-Depthify/blob/main/demo.gif)
+MiDaS result:
+
+![Demo MiDaS](https://github.com/jankais3r/Video-Depthify/blob/main/demo.gif)
+
+
+Boosting result:
+
+![Demo Boosting](https://github.com/jankais3r/Video-Depthify/blob/main/demo_boosting.gif)
