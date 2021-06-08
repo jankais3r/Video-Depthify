@@ -81,3 +81,14 @@ See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depth
 **BoostingMonocularDepth result**:
 
 ![Demo Boosting](https://github.com/jankais3r/Video-Depthify/blob/main/demo_boosting.gif)
+
+BoostingMonocularDepth does not always provide better results compared to vanilla MiDaS, as you can see on the following example.
+
+**MiDaS result**:
+
+![Demo MiDaS](https://github.com/jankais3r/Video-Depthify/blob/main/demo2.gif)
+
+
+**BoostingMonocularDepth result**:
+
+![Demo Boosting](https://github.com/jankais3r/Video-Depthify/blob/main/demo2_boosting.gif)
