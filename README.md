@@ -10,7 +10,7 @@ _**June 2021 update**_
 
 _Use the following Colab notebook to use [BoostingMonocularDepth](https://github.com/compphoto/BoostingMonocularDepth/) instead of MiDaS for even more detailed (and slower) depth maps._
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Bj-HqUEEEIkOwrf62qy7ojHt9VgN8xK6/view?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-c7xSMqbdiykjyNWRvn-s-l4Hirvez5c?usp=sharing)
 
 ## Running locally
 
@@ -73,11 +73,11 @@ See [Elephant_depth_averaged_sound.mp4](https://github.com/jankais3r/Video-Depth
 
 8) Voilà
 
-MiDaS result:
+**MiDaS result**:
 
 ![Demo MiDaS](https://github.com/jankais3r/Video-Depthify/blob/main/demo.gif)
 
 
-Boosting result:
+**BoostingMonocularDepth result**:
 
 ![Demo Boosting](https://github.com/jankais3r/Video-Depthify/blob/main/demo_boosting.gif)
